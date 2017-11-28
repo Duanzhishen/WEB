@@ -1,0 +1,18 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<html>
+  <head>
+    
+    <title>My JSP 'login.jsp' starting page</title>
+
+  </head>
+  
+  <body>
+    <form action="uc.jsp" method="post">
+    	用户名:<input type="text" name="yonghu">
+    	<br/>
+    	密码:<input type="text" name="mima"/>
+    	<input type="submit" value="登录"/>
+    	<input type="reset" value="重置"/>
+    </form>
+  </body>
+</html>
